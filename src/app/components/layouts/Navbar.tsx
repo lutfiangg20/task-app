@@ -13,12 +13,11 @@ import {
   MenubarSubTrigger,
   MenubarTrigger,
 } from "@/components/ui/menubar";
+import SidebarControll from "../SIdebarControll";
 const Navbar = () => {
   return (
-    <div className="flex justify-between p-4">
-      <div className="flex justify-center w-64">
-        <img src="" alt="logo" />
-      </div>
+    <div className="flex justify-between p-4 w-full">
+      <SidebarControll />
       <div>
         <ul className="flex flex-row gap-5 mx-4">
           <li>
